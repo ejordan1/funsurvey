@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+  <body>
+      <div class="container">
+        <form class="form">
+          <div class="formItem">
+              <label for="item1">name</label>
+              <input type="text" id="name" value= "name">
+          </div>
+          <div class="formItem">
+              <select class="form-control" id = "favefood">
+                  <option value="1">lettuce without anything</option>
+                  <option value="2">stale bread</option>
+                  <option value="3">nothing</option>
+              </select>
+          </div>
+          <div class="formItem">
+            <div class="radio">
+              <label>
+                <input type="radio" name="musictype" value="classical" checked>
+                classical
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="musictype" value="rock" checked>
+                rock
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="musictype" value="country" checked>
+                country
+              </label>
+            </div>
+          </div>
+          <div class="formItem">
+            <label for="born">D.O.B.</label>
+            <input type="date" class ="form-control" id="born">
+          </div>
+          <div class="favoriteColor">
+            <label for="color">fave color</label>
+            <input type="color" id = "color" class="form-control">
+          </div>
+      </form>
+      </div>
+  </body>
+</html>
